@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WareHouse.Models.Product>
+
+@{
+    ViewData["Title"] = "Product Categories";
+}
+
+<h1>Product Categories</h1>
+
+<p>
+    <button>
+        <a class='btn btn-primary btn-sm' asp-action="Create">Add Category</a>
+    </button>
+</p>
+
+<table class="table">
+
+    <tbody>
+           <tr>
+                <td class="first-top">No</td>
+                <td class="sec-top">Category</td>
+                <td class="third-top">Action</td>
+           </tr>
+  
+
+            @foreach (var item in Model) {
+
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+           
+                    <td class="main-but">      
+                        <button class="button-edit">
+                            <a class="in-but" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        </button>
+                                
+                        <button class="button-delete">
+                            <a class="in-but" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </button>
+                    </td>
+                     
+                </td>
+
+            </tr>
+
+            }
+
+    </tbody>
+</table>

@@ -1,0 +1,126 @@
+/* _content/WareHouse/Views/AboutUs/AboutUs.cshtml.rz.scp.css */
+html[b-78g6adz91h], body[b-78g6adz91h] {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head-font[b-78g6adz91h]{
+    font-size: 35px;
+}
+
+.main-font[b-78g6adz91h]{
+    padding-top: 60px;
+    padding-left: 38px;
+    font-size: 16px;
+}
+
+.contact-font[b-78g6adz91h]{
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.foot-font[b-78g6adz91h]{
+    font-size: 16px;
+}
+/* _content/WareHouse/Views/Products/Index.cshtml.rz.scp.css */
+body[b-sbl995ci3a] {
+}
+
+.first-top[b-sbl995ci3a]{
+    padding-left: 5px;
+}
+
+.sec-top[b-sbl995ci3a]{
+    padding-left: 120px;
+}
+
+.third-top[b-sbl995ci3a]{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.main-but[b-sbl995ci3a]{
+    padding-left: 700px;
+}
+
+.in-but[b-sbl995ci3a]{
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    gap: 50px;
+}
+
+.button-edit[b-sbl995ci3a] {
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.sec-but[b-sbl995ci3a]{
+    padding-left: 10px;
+}
+
+.button-delete[b-sbl995ci3a]{
+    background-color: #DC3545;
+    border: none;
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+/* _content/WareHouse/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+html[b-wtulfgidn6], body[b-wtulfgidn6] {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container[b-wtulfgidn6] {
+    overflow: hidden;
+    /* display: flex;
+            justify-content: space-between; */
+    gap: 40px;
+    padding: 20px 70px 20px 20px; /* urutan : atas kanan bawah kiri */
+}
+
+.title-left[b-wtulfgidn6] {
+    display: flex;
+    float: left;
+    text-align: center;
+    gap: 40px;
+}
+
+.title-right[b-wtulfgidn6] {
+    float: right;
+    display: flex;
+    gap: 40px;
+}
+
+.link[b-wtulfgidn6] {
+    text-decoration: none;
+}

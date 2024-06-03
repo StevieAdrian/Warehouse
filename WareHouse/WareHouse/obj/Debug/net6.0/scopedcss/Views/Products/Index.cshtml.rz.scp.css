@@ -1,0 +1,62 @@
+body[b-sbl995ci3a] {
+}
+
+.first-top[b-sbl995ci3a]{
+    padding-left: 5px;
+}
+
+.sec-top[b-sbl995ci3a]{
+    padding-left: 120px;
+}
+
+.third-top[b-sbl995ci3a]{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.main-but[b-sbl995ci3a]{
+    padding-left: 700px;
+}
+
+.in-but[b-sbl995ci3a]{
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    gap: 50px;
+}
+
+.button-edit[b-sbl995ci3a] {
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.sec-but[b-sbl995ci3a]{
+    padding-left: 10px;
+}
+
+.button-delete[b-sbl995ci3a]{
+    background-color: #DC3545;
+    border: none;
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
